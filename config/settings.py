@@ -53,7 +53,6 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "config.middleware.NoCacheMiddleware",
 ]
-
 ROOT_URLCONF = "config.urls"
 #integra com o sistema de auth padrao do Django
 AUTH_USER_MODEL = 'cadastros.Usuario' 
