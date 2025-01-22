@@ -6,6 +6,7 @@ from cadastros.models import Usuario
 
 def login(request):
     if request.method == 'POST':
+        
         email = request.POST.get('txtEmail')
         senha = request.POST.get('txtSenha')
         perfil_id = request.POST.get('slcPerfil')
